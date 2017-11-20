@@ -1,0 +1,13 @@
+name: crystush2d
+version: 0.1.0
+
+authors:
+  - Richard Wardin <richardw@hesonline.com>
+
+crystal: 0.23.1
+
+license: MIT
+
+dependencies:
+  crystush:
+    github: shalmezad/crystush
