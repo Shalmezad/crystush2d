@@ -1,4 +1,5 @@
 require "./spec_helper"
+require "./instructions/**"
 
 describe Crystush2d do
 
