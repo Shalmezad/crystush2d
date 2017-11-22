@@ -3,6 +3,7 @@ describe Crystush2d do
     desiredPoint = Crystush2d::Point.new(1.0, 2.0)
     program = "( 1.0 2.0 POINT.FROMFLOATS )"
     stacks = Crystush2d::Program.new(program).evaluate
+    stacks.float_stack.size.should eq(0)
     stacks.point_stack.size.should eq(1)
     stacks.point_stack[0].should eq(desiredPoint)
   end
